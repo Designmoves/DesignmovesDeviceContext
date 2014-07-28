@@ -1,0 +1,45 @@
+{
+    "name": "designmoves/designmoves-device-context",
+    "description": "Zend Framework 2 device context module",
+    "type": "library",
+    "keywords": [
+        "zend",
+        "framework",
+        "zf2",
+        "device",
+        "context",
+        "mobile",
+        "tablet",
+        "detect"
+    ],
+    "homepage": "http://www.designmoves.nl/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.3.23",
+        "zendframework/zend-config": "2.*",
+        "zendframework/zend-eventmanager": "2.*",
+        "zendframework/zend-filter": "2.*",
+        "zendframework/zend-form": "2.*",
+        "zendframework/zend-http": "2.*",
+        "zendframework/zend-loader": "2.*",
+        "zendframework/zend-modulemanager": "2.*",
+        "zendframework/zend-mvc": "2.*",
+        "zendframework/zend-servicemanager": "2.*",
+        "zendframework/zend-stdlib": "2.*",
+        "zendframework/zend-uri": "2.*",
+        "zendframework/zend-view": "2.*"
+    },
+    "require-dev": {
+        "fabpot/php-cs-fixer": "dev-master",
+        "phpunit/phpunit": "4.*",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DesignmovesDeviceContext": "src/"
+        },
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
