@@ -15,6 +15,7 @@
     "homepage": "http://www.designmoves.nl/",
     "license": "BSD-3-Clause",
     "require": {
+        "mobiledetect/mobiledetectlib": "dev-master",
         "php": ">=5.3.23",
         "zendframework/zend-config": "2.*",
         "zendframework/zend-eventmanager": "2.*",
@@ -31,7 +32,6 @@
     },
     "require-dev": {
         "fabpot/php-cs-fixer": "dev-master",
-        "mobiledetect/mobiledetectlib": "dev-master",
         "phpunit/phpunit": "4.*",
         "satooshi/php-coveralls": "dev-master"
     },
