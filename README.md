@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Designmoves/DesignmovesDeviceContext.svg?branch=master)](https://travis-ci.org/Designmoves/DesignmovesDeviceContext)
+[![Coverage Status](https://coveralls.io/repos/Designmoves/DesignmovesDeviceContext/badge.png?branch=master)](https://coveralls.io/r/Designmoves/DesignmovesDeviceContext?branch=master)
+
 DesignmovesDeviceContext
 ========================
 
