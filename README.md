@@ -18,7 +18,7 @@ The controller plugin proxies the Mobile Detect class and has some additional me
   <dd>Determines whether the device is a phone or not</dd>
   <dt>toArray()</dt>
   <dd>Returns an array representation of the detected data:
-```php
+<pre><ocde>
 array (size=6)
   'deviceType' => string 'computer' (length=8)
   'isComputer' => boolean true
@@ -26,7 +26,7 @@ array (size=6)
   'isPhone' => boolean false
   'isTablet' => boolean false
   'userAgent' => string 'Mozilla/5.0 (Windows NT 6.0; rv:30.0) Gecko/20100101 Firefox/30.0' (length=65)
-```
+</code></pre>
   </dd>
 </dl>
 
