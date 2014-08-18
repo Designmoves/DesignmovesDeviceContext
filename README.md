@@ -14,21 +14,21 @@ Zend Framework 2 module for detecting mobile devices. This module uses
 The controller plugin proxies the Mobile Detect class and has some additional methods:
 <dl>
   <dt>getDeviceType()</dt>
-  <dd>Returns the name of the device (computer/phone/tablet)</dd>
+  <dd>Returns the name of the device (<code>computer</code>/<code>phone</code>/<code>tablet</code>)</dd>
   <dt>isComputer()</dt>
-  <dd>Determines whether the device is a computer or not</dd>
+  <dd>Determines whether the device is a computer or not (<code>true</code>/<code>false</code>)</dd>
   <dt>isPhone()</dt>
-  <dd>Determines whether the device is a phone or not</dd>
+  <dd>Determines whether the device is a phone or not (<code>true</code>/<code>false</code>)</dd>
   <dt>toArray()</dt>
   <dd>Returns an array representation of the detected data:
 <pre><code>
 array (size=6)
   'deviceType' => string 'computer' (length=8)
   'isComputer' => boolean true
-  'isMobile' => boolean false
-  'isPhone' => boolean false
-  'isTablet' => boolean false
-  'userAgent' => string 'Mozilla/5.0 (Windows NT 6.0; rv:30.0) Gecko/20100101 Firefox/30.0' (length=65)
+  'isMobile'   => boolean false
+  'isPhone'    => boolean false
+  'isTablet'   => boolean false
+  'userAgent'  => string 'Mozilla/5.0 (Windows NT 6.0; rv:30.0) Gecko/20100101 Firefox/30.0' (length=65)
 </code></pre>
   </dd>
 </dl>
