@@ -11,6 +11,13 @@ Zend Framework 2 module for detecting mobile devices. This module uses
 
 ### Controller plugin
 
+The controller plugin can be used in a controller as follows:
+```php
+if ($this->deviceContext()->isMobile()) {
+    // do something for mobile devices
+}
+```
+
 The controller plugin proxies the Mobile Detect class and has some additional methods:
 <dl>
   <dt>getDeviceType()</dt>
@@ -37,10 +44,18 @@ array (size=6)
 
 The view helper proxies the controller plugin and therefore has the same methods available.
 
+```php
+if ($this->deviceContext()->isMobile()) {
+    // do something for mobile devices
+}
+```
+
 ### Template listener
 
-If enabled this can alter the template being used when a mobile device is detected.
+If enabled this can alter the template being used when a mobile device is detected. This option can be found
+in the config file: [designmoves-device-context.global.php.dist](https://github.com/Designmoves/DesignmovesDeviceContext/blob/master/config/designmoves-device-context.global.php.dist).
 
 ### Layout listener
 
-If enabled this can alter the layout being used when a mobile device is detected.
+If enabled this can alter the layout being used when a mobile device is detected. This option can be found
+in the config file: [designmoves-device-context.global.php.dist](https://github.com/Designmoves/DesignmovesDeviceContext/blob/master/config/designmoves-device-context.global.php.dist).
