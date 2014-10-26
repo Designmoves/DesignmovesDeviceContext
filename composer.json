@@ -12,7 +12,7 @@
         "tablet",
         "detect"
     ],
-    "homepage": "http://www.designmoves.nl/",
+    "homepage": "https://github.com/Designmoves/DesignmovesDeviceContext",
     "license": "BSD-3-Clause",
     "require": {
         "mobiledetect/mobiledetectlib": "dev-master",
