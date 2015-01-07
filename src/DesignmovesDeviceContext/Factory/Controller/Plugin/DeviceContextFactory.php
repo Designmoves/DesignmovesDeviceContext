@@ -31,8 +31,8 @@
 
 namespace DesignmovesDeviceContext\Factory\Controller\Plugin;
 
-use Detection\MobileDetect;
 use DesignmovesDeviceContext\Controller\Plugin\DeviceContext;
+use Detection\MobileDetect;
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 

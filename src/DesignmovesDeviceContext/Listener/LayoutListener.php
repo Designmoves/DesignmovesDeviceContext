@@ -35,10 +35,10 @@ use DesignmovesDeviceContext\Options\ModuleOptions;
 use Zend\EventManager\AbstractListenerAggregate;
 use Zend\EventManager\EventInterface;
 use Zend\EventManager\EventManagerInterface;
+use Zend\Mvc\MvcEvent;
 use Zend\Stdlib\ResponseInterface;
 use Zend\View\Model\ModelInterface;
 use Zend\View\Resolver\AggregateResolver;
-use Zend\Mvc\MvcEvent;
 
 class LayoutListener extends AbstractListenerAggregate
 {

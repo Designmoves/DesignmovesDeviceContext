@@ -37,8 +37,8 @@ use PHPUnit_Framework_TestCase;
 use ReflectionMethod;
 use Zend\EventManager\EventManager;
 use Zend\EventManager\SharedEventManager;
-use Zend\Mvc\MvcEvent;
 use Zend\Http\Response as HttpResponse;
+use Zend\Mvc\MvcEvent;
 use Zend\View\Model\ViewModel;
 
 /**
