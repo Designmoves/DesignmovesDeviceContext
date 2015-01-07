@@ -105,11 +105,13 @@ class DeviceContext extends AbstractPlugin
      * - MobileDetect::isMobile() returns false and
      * - MobileDetect::isTablet() returns false
      *
+     * @param  null|string $userAgent
+     * @param  null|array  $httpHeaders
      * @return bool
      */
-    public function isComputer()
+    public function isComputer($userAgent = null, $httpHeaders = null)
     {
-        return !$this->isMobile() and !$this->isTablet();
+        return !$this->isMobile($userAgent, $httpHeaders) and !$this->isTablet($userAgent, $httpHeaders);
     }
 
     /**
@@ -119,11 +121,13 @@ class DeviceContext extends AbstractPlugin
      * - MobileDetect::isMobile() returns true and
      * - MobileDetect::isTablet() returns false
      *
+     * @param  null|string $userAgent
+     * @param  null|array  $httpHeaders
      * @return bool
      */
-    public function isPhone()
+    public function isPhone($userAgent = null, $httpHeaders = null)
     {
-        return $this->isMobile() and !$this->isTablet();
+        return $this->isMobile($userAgent, $httpHeaders) and !$this->isTablet($userAgent, $httpHeaders);
     }
 
     /**
